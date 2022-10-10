@@ -18,7 +18,7 @@
     img[data-src-800px] {
         content: attr(data-src-800px, url);
     }
-
+}
 
 /*@media (min-width: 640px) { body {font-size:1rem;} } 
 @media (min-width:960px) { body {font-size:1.2rem;} } 
@@ -448,7 +448,7 @@ header .navbar ul li a:hover{
     color:#000080;
     
 }
-}
+
 /*
 
 .pdfbtn .resume-button:hover{
