@@ -7,11 +7,22 @@
     text-decoration: none;
     font-weight: normal;
 }
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
 
 html{
     font-size: 62.5%;
     overflow: hidden;
 }
+
 
 body{
     overflow: hidden;
@@ -19,9 +30,9 @@ body{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    background:linear-gradient(black, lightblue);
+    background:radial-gradient(circle,rgba(238,174,202,0.6431842023918943) 0%, rgba(148,187,233,0.5731561911874125) 100%);
     padding:5.5rem;
-}
+    }
 
 section{
     padding:1rem 7%;
@@ -32,7 +43,7 @@ section{
     font-size: 2rem;
     padding:.7rem 4rem;
     background:rgba(255,255,255,.2);
-    color:#fff;
+    color: #002147;
     border-radius: 1rem;
     box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
     margin-top: 1rem;
@@ -49,7 +60,7 @@ section{
     font-size: 3rem;
     text-align: center;
     padding:1rem;
-    color:#fff;
+    color: #5A5A5A;
 
 }
 
@@ -78,13 +89,13 @@ header .user img{
 
 header .user .name{
     font-size: 3rem;
-    color:#fff;
+    color:#4B0082;
     padding:.5rem 0;
 }
 
 header .user .post{
     font-size: 1.8rem;
-    color:#eee;
+    color:#787878;
     font-weight: lighter;
 }
 
@@ -136,12 +147,12 @@ header .navbar ul li a:hover{
 .home h3{
     font-size: 2.5rem;
     font-weight: lighter;
-    color:#eee;
+    color:#000080;
 }
 
 .home .name span{
     font-size: 4rem;
-    color:#fff;
+    color: #5A5A5A;
 }
 
 .home .post{
@@ -150,10 +161,11 @@ header .navbar ul li a:hover{
 
 .home .post span{
     font-size: 3rem;
-    color:#fff;
+    color: #5A5A5A;
 }
 
-.home .share{
+
+.home .share {
     position: absolute;
     left:50%; bottom:5rem;
     transform: translateX(-50%);
@@ -170,28 +182,49 @@ header .navbar ul li a:hover{
     box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
     padding:1rem 2rem;
     margin:1rem;
-    color:#fff;
+    color: #005f69;
     font-size: 2rem;
     border-radius: 1rem;
 }
 
-.home .share a:hover{
-    background:rgba(255,255,255,.5);
-    color:#555;
+.about .share a{
+    position:bottom;
+    left:50%; bottom:5rem;
+    display:inline-flex;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    padding:1rem 2rem;
+    margin:1rem;
+    color: #008E97;
+    font-size: 2rem;
+    border-radius: 1rem;
 }
 
-.about .content h3{
+
+.home .share a:hover{
+    background:rgba(255,255,255,.5);
+    color:#6050DC;
+}
+.about .share a:hover{
+    background:rgba(255,255,255,.5);
+    color:#0000CD;
+    
+    
+}
+
+
+.about .content  h3{
     font-size: 2.5rem;
-    color:#eee;
+    color:#000080;
 }
 
 .about .content h3 span{
-    color:#fff;
+    color: #5A5A5A;
 }
 
 .about .content p{
     font-size: 1.5rem;
-    color:#eee;
+    color:#000080;
     padding:.5rem 0;
 }
 
@@ -211,7 +244,7 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: space-between;
     font-size: 2rem;
-    color:#fff;
+    color: #5A5A5A;
 }
 
  .skillbar .progress .bar{
@@ -227,14 +260,14 @@ header .navbar ul li a:hover{
     top:0; left: 0;
     height:100%;
     width:100%;
-    background:#fff;
+    background: #72A0C1;
 }
 
 
 .skillbar h3{
     font-size: 2.5rem;
     font-weight: lighter;
-    color:cadetblue;
+    color:whitesmoke;
 }
     
 .skillbar .progress:nth-child(1) .bar span{
@@ -242,7 +275,7 @@ header .navbar ul li a:hover{
 }
 
 .skillbar .progress:nth-child(2) .bar span{
-    width: 85%;
+    width:85%;
 }
 
 .about .skillbar .progress:nth-child(3) .bar span{
@@ -270,20 +303,20 @@ header .navbar ul li a:hover{
 }
 
 .skillbar .box-container .box i{
-    color:#fff;
+    color: #5A5A5A;
     font-size: 4.5rem;
     padding:1rem 0;
 }
 
 .skillbar .box-container .box p{
-    color:#eee;
+    color:#000080;
     font-size: 1.3rem;
     padding:.5rem 5rem;
 }
 
 .education .box-container{
     display: flex;
-    /* align-items: center; */
+     align-items: center; 
     justify-content: space-between;
     flex-wrap: wrap;
     padding:2rem 0;
@@ -298,7 +331,7 @@ header .navbar ul li a:hover{
 
 .education .box-container .box .year{
     font-size: 2rem;
-    color:#eee;
+    color:#000080;
     position: relative;
 }
 
@@ -309,18 +342,18 @@ header .navbar ul li a:hover{
     height:2rem;
     width:2rem;
     border-radius: 50%;
-    background:#fff;
+    background: #5A5A5A;
 }
 
 .education .box-container .box h3{
     font-size: 2rem;
-    color:#fff;
+    color: #5A5A5A;
     padding-top: 1rem;
 }
 
 .education .box-container .box p{
     font-size: 1.3rem;
-    color:#eee;
+    color:#000080;
     padding: 1rem 0;
 }
 
@@ -350,13 +383,13 @@ header .navbar ul li a:hover{
     height:4rem;
     width:49%;
     font-size: 1.7rem;
-    color:#fff;
+    color: #555;
     text-transform: none;
 }
 
 .contact .row form .box::placeholder{
     text-transform: capitalize;
-    color:#eee;
+    color:#007791;
 }
 
 .contact .row form .message{
@@ -371,26 +404,141 @@ header .navbar ul li a:hover{
 }
 
 .contact .row .content{
-    padding:0 5rem;
+    padding:0 7rem;
 }
 
 .contact .row .content .icons{
     padding:1rem 0;
 }
 
-.contact .row .content .icons h3{
+.contact .row .content .icons {
     padding:1rem 0;
     font-size: 2rem;
-    color:#fff;
+    color:#005A9C;
     display: flex;
 }
 
-.contact .row .content .icons h3 i{
+.contact .row .content .icons i h3{
     padding-right: .5rem;
+    
 }
 
 .contact .row .content .icons p{
     font-size: 1.5rem;
-    color:#eee;
+    color:#000080;
+    
+}
+/*
+
+.pdfbtn .resume-button:hover{
+   background-color: var(--green-tint);
+    outline: none;
 }
 
+.pdfbtn .resume-button{
+color: var(--green);
+    background-color: transparent;
+    border: 1px solid var(--green);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1rem;
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-left: 15px;
+    font-size: var(--fz-xs);
+}
+
+
+.side__StyledSideElement-sc-1duznzb-0 hOvuuP {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: var(--light-slate);
+}
+
+.StyledSocialList{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+.share nav{
+  position: fixed;
+  width: 60px;
+  margin-top: 150px;
+  transition: all 0.3s linear;
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
+}
+
+.share nav ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.share nav li{
+  height: 45px;
+  position:relative;
+}
+.share nav li a{
+  color: #fff !important;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 45px;
+  padding-left:25%;
+  border-bottom: 1px solid rgba(0,0,0,.4);
+  transition: all .3s linear;
+  text-decoration: none !important;
+}
+.share nav li:nth-child(1) a{
+  background: #4267B2;
+}
+.share nav li:nth-child(2) a{
+  background: #1DA1F2;
+}
+.sharenav li:nth-child(3) a{
+  background: #E1306C;
+}
+.share nav li:nth-child(4) a{
+  background: #2867B2;
+}
+.share nav li:nth-child(5) a{
+  background: #333;
+}
+.share nav li:nth-child(6) a{
+  background: #ff0000;
+}
+.share nav li a i{
+      position: absolute;
+    top: 14px;
+    left: 24px;
+    font-size: 15px;
+}
+.share ul li a span{
+  display: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.share a:hover {
+  z-index:1;
+  width: 200px;
+  border-bottom: 1px solid rgba(0,0,0,.5);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+}
+.share ul li:hover a span{
+  padding-left: 30%;
+  display: block;
+  font-size: 15px;
+}
+*/
