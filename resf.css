@@ -2,7 +2,7 @@
     margin:0; padding:0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: capitalize;
+    text-transform: none;
     outline: none; border:none;
     text-decoration: none;
     font-weight: normal;
@@ -52,7 +52,7 @@ header .navbar ul li .user{
 }
 }
 @media (max-width: 400px) {
-    .row .icons .content{
+    .row ,.icons ,.content{
         font-size:25%
         display:block;
     }}
