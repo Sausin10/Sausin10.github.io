@@ -17,7 +17,12 @@
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }*/
-
+@media screen and (max-width: 1060px) {
+    html{
+    font-size: 60%;
+    overflow: hidden;
+}
+}
 @media(max-width: 600px) {
 html{
     font-size: 40%;
@@ -30,7 +35,7 @@ html{
     overflow: hidden;
 }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 header .navbar ul li .user{
     font-size: 35%;
     width=40%;
