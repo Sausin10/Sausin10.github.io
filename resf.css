@@ -35,10 +35,19 @@ html{
 }
 }
 @media screen and (max-width: 500px) {
-header{
+header .navbar{
     font-size: 55%;
     width=50%;
     display:block;
+}
+}
+
+@media screen and (max-width: 400px) {
+.container{
+    font-size: 55%;
+    overflow: hidden;
+    display:block;
+    
 }
 }
 
