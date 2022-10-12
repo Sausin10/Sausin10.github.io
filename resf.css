@@ -46,9 +46,9 @@ header .navbar ul li .user{
     
 }
 }
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
     .row .icons .share{
-        display:contents;
+        display:flex;
     }
 
 body{
