@@ -6,10 +6,6 @@
     outline: none; border:none;
     text-decoration: none;
     font-weight: normal;
-    @media screen and (max-width: 1060px) {
-     { width:67%; }
-     { width:30%; margin-left:3%;}  
-}
 }
 /*@media screen and (max-width: 1060px) {
     #primary { width:67%; }
@@ -35,15 +31,15 @@ html{
 }
 }
 @media screen and (max-width: 500px) {
-header .navbar{
-    font-size: 55%;
-    width=50%;
+header .navbar ul li .user{
+    font-size: 35%;
+    width=40%;
     display:block;
 }
 }
 
 @media screen and (max-width: 400px) {
-.container{
+.container, .home{
     font-size: 25%;
     overflow: hidden;
     display:block;
