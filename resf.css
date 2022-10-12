@@ -22,11 +22,12 @@
     #secondary { width:100%; margin:0; border:none; }
 }*/
 
+@media screen and (max-width: 768px) {
 html{
     font-size: 62.5%;
     overflow: hidden;
 }
-
+}
 
 body{
     overflow: hidden;
