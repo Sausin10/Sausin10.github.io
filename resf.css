@@ -413,10 +413,10 @@ header .navbar ul li a:hover{
     text-transform: none;
 }
 
-.contact .row form .box::placeholder{
+/*.contact .row form .box::placeholder{
     text-transform: capitalize;
     color:#007791;
-}
+}*/
 
 .contact .row form .message{
     padding:1rem;
@@ -430,7 +430,7 @@ header .navbar ul li a:hover{
 }
 
 .contact .row .content{
-    padding:0 7rem;
+    padding:0 3rem;
 }
 
 .contact .row .content .icons{
