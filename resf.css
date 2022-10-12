@@ -54,7 +54,7 @@ header .navbar ul li .user{
 @media (max-width: 400px) {
     .row .icons .content{
         font-size:25%
-        display:flex;
+        display:block;
     }}
 
 body{
