@@ -39,15 +39,17 @@ header .navbar ul li .user{
 }
 
 @media screen and (max-width: 400px) {
-.container, .home, .icons, .row{
+.container, .home{
     font-size: 25%;
     overflow: hidden;
     display:block;
     
 }
 }
-
-
+@media screen and (max-width: 400px) {
+    .row .icons .share{
+        display:none;
+    }
 
 body{
     overflow: hidden;
