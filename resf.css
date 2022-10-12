@@ -24,13 +24,13 @@
 
 @media(max-width: 600px) {
 html{
-    font-size: 45%;
+    font-size: 40%;
     overflow: hidden;
 }
 }
 @media(max-width: 998px) {
 html{
-    font-size: 55%;
+    font-size: 27%;
     overflow: hidden;
 }
 }
