@@ -31,13 +31,13 @@
     overflow: hidden;
 }
 }
-@media(max-width: 600px), screen  {
+@media (max-width: 600px)  {
 html{
     font-size: 40%;
     overflow: hidden;
 }
 }
-@media(max-width: 400px) {
+@media (max-width: 400px) {
 html{
     font-size: 27%;
     overflow: hidden;
