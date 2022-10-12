@@ -22,18 +22,27 @@
     #secondary { width:100%; margin:0; border:none; }
 }*/
 
-@media screen and (max-width: 600px) {
+@media(max-width: 600px) {
 html{
     font-size: 45%;
     overflow: hidden;
 }
 }
-@media screen and (max-width: 998px) {
+@media(max-width: 998px) {
 html{
     font-size: 55%;
     overflow: hidden;
 }
 }
+@media screen and (max-width: 500px) {
+header{
+    font-size: 55%;
+    width=50%;
+    display:block;
+}
+}
+
+
 
 body{
     overflow: hidden;
