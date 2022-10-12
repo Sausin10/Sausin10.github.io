@@ -52,7 +52,7 @@ header .navbar ul li .user{
 }
 }
 @media (max-width: 400px) {
-    .row ,.icons ,.content{
+    .row ,.icons ,.content, .i{
         font-size:25%
         display:block;
     }}
