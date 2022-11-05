@@ -390,8 +390,8 @@ header .navbar ul li a:hover{
 
 .about .share a{
     position:relative;
-	left:10%;
-	bottom:0.15rem;
+    left:10%;
+    bottom:1 rem;
     display:inline-block;
     background: rgba(255,255,255,.2);
     box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
