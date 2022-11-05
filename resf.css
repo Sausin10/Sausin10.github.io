@@ -50,18 +50,14 @@ img{
 header {
 	display:block;
     font-size: 35%;
-	height:100%;
-	position:absolute;
-	top:5;
-	left:30%;
+	
 
 }
 img{
 	display:inline-block;
 }
 .container{
-	position:absolute;
-	top:65rem;
+	
 	 font-size: 35%;
     width:40%;
     display:block;	
