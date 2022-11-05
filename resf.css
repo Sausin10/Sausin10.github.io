@@ -7,72 +7,113 @@
     text-decoration: none;
     font-weight: normal;
 }
-/*@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}*/
 
-/* Media Queries: Tabled Portrait 
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-}*/
-@media (max-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1800px){
+	 html{
+    font-size: 80%;
+    display:inline-block;
+    overflow: hidden;
+}
+.education{
+	font-size:27%;
+	display:inline-block;
+}
+header  {
+	position:relative;
+	display:inline-block;
+    font-size: 40%;
+	height:58rem;
+	width:100%;
+	
+
+}
+img{
+	display:inline-block;
+}
+.container{
+	 font-size: 40%;
+    width:60%;
+	position:relative;
+    display:inline-block;	
+}
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
     html{
     font-size: 60%;
-    display:block;
+    display:inline-block;
     overflow: hidden;
 }
-header {
-	display:block;
-        font-size: 35%;
-	height:58rem;
-
-}
-img{
+.education{
+	font-size:27%;
 	display:inline-block;
 }
-.container{
-	
-	 font-size: 35%;
-   
-    display:block;	
-}
-}
-
-}
-@media  (max-width: 768px) {
-     html{
-    font-size: 50%;
-    display:block;
-    overflow: hidden;
-}
-header {
-	display:block;
-    font-size: 35%;
-	
-
-}
-img{
+header  {
+	position:relative;
 	display:inline-block;
-}
-.container{
-	
-    font-size: 35%;
-    width:40%;
-    display:block;	
-}
-}
-
-}
-@media (max-width: 600px)  {
-html{
     font-size: 40%;
+	height:58rem;
+	width:100%;
+	
+
+}
+img{
+	display:inline-block;
+}
+.container{
+	 font-size: 40%;
+    width:60%;
+	position:relative;
+    display:inline-block;	
+}
+}
+
+
+@media screen and (min-width: 760px) and (max-width: 1024px)  {
+html{
+    font-size: 48%;
+    display:block;
     overflow: hidden;
+}
+.education{
+	font-size:27%;
+	display:inline-block;
+}
+header {
+	display:inline-block;
+    font-size: 40%;
+	position:relative;
+	height:58rem;
+	width:100%;
+	top:5;
+	left:35%;
+
+}
+img{
+	display:inline-block;
+}
+.container{
+	position:relative;
+	top:65rem;
+	 font-size: 45%;
+    width:60%;
+    display:inline-block;	
+	right:20%;
+}
+}
+
+
+	
+@media screen and (min-width: 600px) and (max-width: 800px){
+html{
+    font-size: 45%;
+    overflow: hidden;
+	display:block;
 }
 header {
 	display:block;
-    font-size: 35%;
+    font-size: 75%;
 	height:58rem;
 	position:absolute;
 	top:5;
@@ -83,15 +124,44 @@ img{
 	display:inline-block;
 }
 .container{
-	position:absolute;
+	position:relative;
 	top:65rem;
-	 font-size: 35%;
+	left:10%;
+	 font-size:30%;
+    width:40%;
+    display:block;	
+	
+}
+
+}
+@media screen and (min-width: 480px) and (max-width:600px) {
+html{
+    font-size: 35%;
+    overflow: hidden;
+	display:block;
+}
+header {
+	display:block;
+    font-size: 75%;
+	height:58rem;
+	position:absolute;
+	top:5;
+	left:30%;
+
+}
+img{
+	display:inline-block;
+}
+.container{
+	position:relative;
+	top:65rem;
+	 font-size:30%;
     width:40%;
     display:block;	
 }
 }
 
-@media (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width:480px) {
 html{
     font-size: 30%;
     overflow: hidden;
@@ -117,12 +187,35 @@ img{
 }
 }
 
-@media  (max-width: 320px) {
+@media  screen and (min-width:100px) and (max-width: 320px) {
 .container, .home{
-    font-size: 25%;
+    font-size: 20%;
     overflow: hidden;
     display:block;
     
+}
+html{
+    font-size: 30%;
+    overflow: hidden;
+}
+header {
+	display:block;
+    font-size: 35%;
+	height:58rem;
+	position:absolute;
+	top:5;
+	left:20%;
+
+}
+img{
+	display:inline-block;
+}
+.container{
+	position:relative;
+	top:60rem;
+	font-size: 20%;
+    width:65rem;
+    display:inline-block;	
 }
 }	
 	
@@ -297,7 +390,7 @@ header .navbar ul li a:hover{
 
 .about .share a{
     position:relative;
-	left:25%;
+	left:10%;
 	bottom:0.15rem;
     display:inline-block;
     background: rgba(255,255,255,.2);
