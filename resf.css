@@ -18,6 +18,10 @@
 	font-size:50%;
 	display:inline-block;
 }
+.contact .content{
+	font-size:60%;
+	}
+	
 header  {
 	position:relative;
 	display:inline-block;
